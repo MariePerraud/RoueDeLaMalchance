@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+// eslint-disable-next-line import/no-unresolved
 import { Wheel } from "react-custom-roulette";
 import "../styles/Home.css";
 
