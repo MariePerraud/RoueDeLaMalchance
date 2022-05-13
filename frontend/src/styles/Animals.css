@@ -1,0 +1,91 @@
+.animal {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  background-color: white;
+}
+
+.animal-header {
+  height: 25vh;
+  margin: 20px;
+}
+
+.animal-img {
+  height: 25vh;
+  border-radius: 3.5%;
+}
+
+.animal-body h2 {
+  font-size: 2rem;
+  margin-bottom: 5px;
+}
+
+.animal-body {
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.animal-body h3 {
+  font-size: 1.4rem;
+  margin: 10px;
+}
+
+.animal-body h4 {
+  font-size: 1.2rem;
+}
+
+.animal-description {
+  gap: 20px;
+}
+
+.animal-emoji {
+  height: 7vh;
+  width: 10vh;
+  margin-bottom: 5vh;
+  border-style: none;
+  background-color: #accbe1;
+  border-radius: 50%;
+  font-size: 1.3rem;
+}
+
+@media screen and (max-width: 767px) {
+  .animal-body img {
+    height: 15vh;
+    .width: 150px;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .animal {
+    display: flex;
+    align-items: center;
+  }
+  .animal-body {
+    width: 80%;
+    gap: 50px;
+    font-size: 1.2rem;
+  }
+  .animal-body h2 {
+    font-size: 2.5rem;
+  }
+  .animal-img {
+    height: 40vh;
+  }
+  .animal-header {
+    margin-bottom: 100px;
+  }
+  .animal-body h3 {
+    font-size: 1.8rem;
+  }
+  .animal-body h4 {
+    font-size: 1.3rem;
+  }
+  .UICNimg {
+    height: 17vh;
+    width: 400px;
+    margin-left: 415px;
+  }
+}

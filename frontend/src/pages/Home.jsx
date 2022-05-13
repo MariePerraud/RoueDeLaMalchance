@@ -8,7 +8,7 @@ const data = [
   { id: 1, option: "💀", name: "RaieManta" },
   { id: 2, option: "🐢", name: "tortueLuth" },
   { id: 3, option: "🐳", name: "baleineBleue" },
-  { id: 4, option: "🐻‍❄️", name: "oursPolaire" },
+  { id: 4, option: "🐻", name: "oursPolaire" },
   { id: 5, option: "🐯", name: "tigre" },
   { id: 6, option: "💀", name: "hippocampe" },
   { id: 7, option: "🦉", name: "harfangDesNeiges" },
